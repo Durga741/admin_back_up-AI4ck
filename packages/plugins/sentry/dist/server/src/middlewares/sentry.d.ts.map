@@ -1,0 +1,1 @@
+{"version":3,"file":"sentry.d.ts","sourceRoot":"","sources":["../../../../server/src/middlewares/sentry.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,gBAAgB,CAAC;AAI3C;;GAEG;qCACyB;IAAE,MAAM,EAAE,KAAK,MAAM,CAAA;CAAE;AAAnD,wBAqCE"}

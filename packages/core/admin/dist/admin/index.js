@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const index = require('./index-EeNFKp50.js');
+const index = require('./index-D2-0Z9ps.js');
 const Theme = require('./Theme-B3Vl7PO-.js');
 const admin = require('./admin-CoWMk1La.js');
 

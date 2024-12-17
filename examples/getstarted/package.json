@@ -9,7 +9,7 @@
     "build:ce": "STRAPI_DISABLE_EE=true strapi build",
     "develop": "strapi develop",
     "develop:ce": "STRAPI_DISABLE_EE=true strapi develop",
-    "start": "strapi start",
+    "start": "strapi start --max-old-space-size=4096 --initial-old-space-size=2048",
     "strapi": "strapi"
   },
   "dependencies": {

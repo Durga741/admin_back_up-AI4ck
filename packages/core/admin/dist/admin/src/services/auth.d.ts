@@ -25,7 +25,9 @@ declare const useCheckPermissionsQuery: import('@reduxjs/toolkit/dist/query/reac
     token: string;
     user: Omit<import('..').SanitizedAdminUser, "permissions">;
 }, "adminApi">>, useRegisterAdminMutation: import('@reduxjs/toolkit/dist/query/react/buildHooks').UseMutation<import('@reduxjs/toolkit/query').MutationDefinition<Pick<import('..').AdminUser, "firstname" | "lastname" | "email" | "password">, import('@reduxjs/toolkit/query').BaseQueryFn<string | import('../utils/baseQuery').QueryArguments, unknown, import('../utils/baseQuery').BaseQueryError>, "User" | "Me" | "ProvidersOptions", {
-    token: string;
+    token: string; /**
+     * Auth methods
+     */
     user: Omit<import('..').SanitizedAdminUser, "permissions">;
 }, "adminApi">>, useRegisterUserMutation: import('@reduxjs/toolkit/dist/query/react/buildHooks').UseMutation<import('@reduxjs/toolkit/query').MutationDefinition<{
     registrationToken: string;
